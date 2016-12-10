@@ -9,11 +9,14 @@ body{
 }
 
 #fronttext{
-	width:50%;
-	height:10px;
+	font-family: roboto slab;
+	font-size:625%;
+	margin: 0px 0px 0px 27%;
+	line-height:530px;
 	color:white;
-	position:absolute;
-	z-index:2;
+	text-shadow:0px 5px 4px rgba(0,0,0,0.3);
+	position:fixed;
+	z-index:1;
 }
 
 header{
@@ -31,16 +34,17 @@ header{
 	background-color:#007dda;
 	width:100%;
 	height:800px;
-	margin-top:70px;
-	position:relative;
+	margin-top:-129px;
+	position:absolute;
+	top:100%;
 	z-index:1;
 }
 
-#sq1{
+#rt1{
 	background-color:#0066cc;
 	width:100%;
-	height:121px;
-	position:absolute;
+	height:auto;
+	position:fixed;
 	margin-top:0px;
 }
 
@@ -53,27 +57,29 @@ header{
 }
 
 #sq2 {
-    background-color: #004a94;
-    width: 17%;
-    height: 305px;
-    position: absolute;
-    margin-top: 51px;
-    right: 69.7%;
-    z-index: 2;
-    box-shadow: 6px 14px 40px rgba(0,0,0,0.4);
-    border-radius: 20px 20px 20px 20px;
+	min-width:300px;
+	background-color: #004a94;
+	width: 17%;
+	height: 305px;
+	position: absolute;
+	left:6%;
+	margin-top: 51px;
+	z-index: 2;
+	box-shadow: 6px 14px 40px rgba(0,0,0,0.4);
+	border-radius: 20px 20px 20px 20px;
 }
 
 #sq3 {
-    background-color: #004a94;
-    width: 17%;
-    height: 305px;
-    position: absolute;
-    margin-top: 60px;
-    right: 69.2%;
-    z-index: 1;
-    box-shadow: 6px 14px 40px rgba(0,0,0,0.4);
-    border-radius: 20px 20px 20px 20px;
+	min-width:300px;
+	background-color: #004a94;
+	width: 17%;
+	height: 305px;
+	position: absolute;
+	margin-top: 60px;
+	left: 6.8%;
+	z-index: 1;
+	box-shadow: 6px 14px 40px rgba(0,0,0,0.4);
+	border-radius: 20px 20px 20px 20px;
 }
 
 #sq4{
