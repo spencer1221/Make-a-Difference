@@ -1,53 +1,45 @@
-
-
-
-body{
-	background-image: url("css/images/mt.jpg");
-	background-attachment:fixed;
-	background-color:black;
-	margin:0 auto;
+body {
+    background-image: url("css/images/mt.jpg");
+    background-attachment: fixed;
+    background-color: black;
+    margin: 0 auto;
 }
-
-#fronttext{
-	font-family: roboto slab;
-	font-size:625%;
-	margin: 0px 0px 0px 27%;
-	line-height:530px;
-	color:white;
-	text-shadow:0px 5px 4px rgba(0,0,0,0.3);
-	position:fixed;
-	z-index:1;
+#fronttext {
+    font-family: roboto slab;
+    font-size: 625%;
+    margin: 0px 0px 0px 27%;
+    line-height: 530px;
+    color: white;
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 1;
 }
-
-header{
-	background-color:white;
-	width:100%;
-	height:87px;
-	margin-top:-16px;
-	line-height:0px;
-	position:fixed;
-	z-index:2;
-	box-shadow: 0px 3px 40px rgba(0,0,0,0.4);
+header {
+    background-color: white;
+    width: 100%;
+    height: 87px;
+    margin-top: -16px;
+    line-height: 0px;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0px 3px 40px rgba(0, 0, 0, 0.4);
 }
-
-#content{
-	background-color:#007dda;
-	width:100%;
-	height:800px;
-	margin-top:-129px;
-	position:absolute;
-	top:100%;
-	z-index:1;
+#content {
+    background-color: #007dda;
+    width: 100%;
+    height: 800px;
+    margin-top: -129px;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
 }
-
-#rt1{
-	background-color:#0066cc;
-	width:100%;
-	height:auto;
-	position:fixed;
-	margin-top:0px;
+#rt1 {
+    background-color: #0066cc;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin-top: 0px;
 }
-
 #info {
     width: 2%;
     height: 38px;
@@ -55,90 +47,78 @@ header{
     position: absolute;
     z-index: 3;
 }
-
 #sq2 {
-	min-width:300px;
-	background-color: #004a94;
-	width: 17%;
-	height: 305px;
-	position: absolute;
-	left:6%;
-	margin-top: 51px;
-	z-index: 2;
-	box-shadow: 6px 14px 40px rgba(0,0,0,0.4);
-	border-radius: 20px 20px 20px 20px;
+    min-width: 300px;
+    background-color: #004a94;
+    width: 17%;
+    height: 305px;
+    position: absolute;
+    left: 6%;
+    margin-top: 51px;
+    z-index: 2;
+    box-shadow: 6px 14px 40px rgba(0, 0, 0, 0.4);
+    border-radius: 20px 20px 20px 20px;
 }
-
 #sq3 {
-	min-width:300px;
-	background-color: #004a94;
-	width: 17%;
-	height: 305px;
-	position: absolute;
-	margin-top: 60px;
-	left: 6.8%;
-	z-index: 1;
-	box-shadow: 6px 14px 40px rgba(0,0,0,0.4);
-	border-radius: 20px 20px 20px 20px;
+    min-width: 300px;
+    background-color: #004a94;
+    width: 17%;
+    height: 305px;
+    position: absolute;
+    margin-top: 60px;
+    left: 6.8%;
+    z-index: 1;
+    box-shadow: 6px 14px 40px rgba(0, 0, 0, 0.4);
+    border-radius: 20px 20px 20px 20px;
 }
-
-#sq4{
-	background-color:#0066cc;
-	width:100%;
-	height:121px;
-	position:absolute;
-	margin-top:0px;
+#sq4 {
+    background-color: #0066cc;
+    width: 100%;
+    height: 121px;
+    position: absolute;
+    margin-top: 0px;
 }
-
-#sq5{
-	background-color:#0066cc;
-	width:100%;
-	height:121px;
-	position:absolute;
-	margin-top:0px;
+#sq5 {
+    background-color: #0066cc;
+    width: 100%;
+    height: 121px;
+    position: absolute;
+    margin-top: 0px;
 }
-
-#section1{
-	background-repeat:no-repeat;
-	width:100%;
-	height:905px;
+#section1 {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 905px;
 }
-
-#mt{
-	width:100%;
-	height:1080px;
-	background-repeat:no-repeat;
-	z-index:-1;
-	position:fixed;
+#mt {
+    width: 100%;
+    height: 1080px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: fixed;
 }
-
-footer{
-	background-color:#888888;
-	width:100%;
-	height:200px;
-	margin-top:0px;
+footer {
+    background-color: #888888;
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
 }
-
-ul{
-	list-style-type:none;
+ul {
+    list-style-type: none;
 }
-
-li{
-	display:inline;
+li {
+    display: inline;
 }
-
-li a{
-	text-decoration:none;
-	color:#37659e;
-	padding:18px;
-	line-height:71px;
-	font-size:20px;
-	font-family:Franklin Gothic Medium;
-	position:relative;
-	right:-30%;
+li a {
+    text-decoration: none;
+    color: #37659e;
+    padding: 18px;
+    line-height: 71px;
+    font-size: 20px;
+    font-family: Franklin Gothic Medium;
+    position: relative;
+    right: -30%;
 }
-
-li a:hover{
-	background-color:#c3ccd8;
-	
+li a:hover {
+    background-color: #c3ccd8;
 }
