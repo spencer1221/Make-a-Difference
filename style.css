@@ -96,15 +96,6 @@ body{
    border: none;
    border-radius: 10px;
    font-weight: bold;
-   
-   -moz-appearance: none;
-   -o-appearance: none;
-   -webkit-appearance: none;
-   appearance: none;
-   
-   -moz-transition: all .2s ease-in;
-   -o-transition: all .2s ease-in;
-   -webkit-transition: all .2s ease-in;
    transition: all .2s ease-in;
 }
 .navButton:hover{
